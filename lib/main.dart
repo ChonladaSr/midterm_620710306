@@ -38,9 +38,7 @@ class _GamePageState extends State<GamePage> {
       appBar: AppBar(
         title: Row(
           children: const [
-            //เอาบางสิ่งครอบไอคอน
             SizedBox(width: 10),
-            //ไว้แทรกให้มีพื้นที่ระหว่างกัน หรือใช้ Padding ก็ได้เช่นกันแล้วแต่เราเลือก
             Text("CALENDAR 2023"),
           ],
         ),
@@ -53,7 +51,6 @@ class _GamePageState extends State<GamePage> {
             Expanded(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
-                //ทำให้อยู่ตรงกลางสวยๆ มีแบ spaceBetween,อราวด์ก็ //หรือจะแรปวิทเซ็นเตอร์
                 children: [
                   Row(
                     children: [
