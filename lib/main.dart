@@ -45,7 +45,6 @@ class _GamePageState extends State<GamePage> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
-        //ตรงนี้อย่าลืมช่องใส่เลขจะได้ไม่ชิดขอบเกิ๊นไป
         child: Row(
           children: [
             Expanded(
